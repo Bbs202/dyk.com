@@ -10,14 +10,5 @@ $(document).ready(function(){
         $(this).find("i").toggleClass("fa-moon fa-sun")      
    
     })
-    $("#btn1").click(function(){
-        var name1 = $("#name1").val();
-        var nextSite = $('#btn1').html(<a href="index2.html"></a>);
-        if(name1 == ""){
-            alert("enter your name");
-        }
-        else{
-            nextSite
-        }
-    })
+    
 })
